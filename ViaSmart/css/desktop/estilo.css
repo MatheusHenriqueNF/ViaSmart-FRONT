@@ -1,4 +1,39 @@
-#wrapper{
-    width: 100%;
-    height: 100%;
+@media (min-width: 1200px) {
+    #wrapper{
+        width: 100%;
+        height: 100%;
+    }
+
+    .apresentacao-conteudo{
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    .apresentacao-conteudo img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        filter: brightness(50%); 
+        transition: filter 0.3s; 
+    }
+
+    .apresentacao-conteudo p{
+        width: 450px;
+        position: absolute;
+        top: 50%;
+        left: 320px;
+        transform: translate(-50%, -50%);
+        font-size: 48px;
+        font-weight: 700;
+        color: #ffffff;
+        text-align:justify;
+        line-height: 135%;
+    }
+
+    .apresentacao-conteudo span{
+        font-size: 48px;
+        font-weight: 700;
+        background-color: rgba(77, 92, 187, 0.5);
+    }
 }
