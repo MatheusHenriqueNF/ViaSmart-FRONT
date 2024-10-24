@@ -19,7 +19,7 @@
     }
 
     .apresentacao-conteudo p{
-        width: 450px;
+        width: 470px;
         position: absolute;
         top: 50%;
         left: 320px;
@@ -31,9 +31,42 @@
         line-height: 135%;
     }
 
+    a{
+        font-size: 16px;
+        color: #2B63A9;
+        text-decoration: none;
+    }
+
     .apresentacao-conteudo span{
         font-size: 48px;
         font-weight: 700;
         background-color: rgba(77, 92, 187, 0.5);
     }
+
+    .conteudo-texto, .conteudo-imagem{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 8px 4%;
+        border: 1px solid #000;
+    }
+
+    .conteudo-texto h1{
+        font-size: 48px;
+        font-weight: 400;
+        color: #243E63;
+        margin-bottom: 30px;
+    }
+
+    .conteudo-texto p{
+        font-size: 16px;
+        color: #1E1E1E;
+        line-height: 1.5;
+        text-align: justify;
+        font-weight: 200;
+        margin-bottom: 30px;
+    }
+
 }
