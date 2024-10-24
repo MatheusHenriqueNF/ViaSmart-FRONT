@@ -1,0 +1,44 @@
+@media (min-width: 1200px) {
+    #vantagens{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        padding: 8px 4%;
+    }
+
+    #content-dados{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        gap: 50px;
+    }
+
+    .informacao{
+        width: 33%;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+    }
+   
+    .informacao p{
+        font-size: 20px;
+        color: #000000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 100;
+    }
+
+    .informacao span{
+        font-size: 55px;
+        color: #2B63A9;
+        display: flex;
+    }
+
+    
+}
