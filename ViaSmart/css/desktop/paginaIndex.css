@@ -74,11 +74,26 @@
         margin-bottom: 30px;
     }
     
-    #conheca-empresa{
+    #conheca-empresa, #conheca-produto{
         width: 100%;
-        height: 400px;
+        height: 440px;
         display: flex;
         background-color: #F0F2F5;
+        padding: 8px 4%;
     }
+
+    #conheca-produto{
+        height: 540px;
+        background-color: #ffffff;
+    }
+
+    #integrantes{
+        width: 100%;
+        height: 500px;
+        display: flex;
+        background-color: #0066ff;
+        padding: 8px 4%;
+    }
+    
    
 }
