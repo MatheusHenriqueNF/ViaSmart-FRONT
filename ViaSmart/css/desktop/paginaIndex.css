@@ -82,6 +82,7 @@
         padding: 8px 4%;
     }
 
+
     #conheca-produto{
         height: 540px;
         background-color: #ffffff;
@@ -90,10 +91,24 @@
     #integrantes{
         width: 100%;
         height: 330px;
-        display: flex;
-        background-color: #0066ff;
         padding: 8px 4%;
+        gap: 20px;
+        
     }
     
+    #integrantes h3{
+        font-size: 22px;
+        color: #ffffff;
+        margin-bottom: 30px;
+        font-weight: 300;
+        color: #243E63;
+    }
    
+    #content-membro{
+        width: 100%;
+        height: 144px;
+        display: flex;
+        gap: 8px;
+        display: flex;
+    }
 }
