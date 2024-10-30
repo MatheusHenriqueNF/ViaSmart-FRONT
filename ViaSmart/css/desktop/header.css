@@ -8,6 +8,10 @@
         z-index: 10;
     }
 
+    header a{
+        text-decoration: none;
+    }
+
     #navbar{
         width: 100%;
         display: flex;
