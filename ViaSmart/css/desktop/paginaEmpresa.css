@@ -1,18 +1,6 @@
 @media (min-width: 1200px) {
 
-    .apresentacao-conteudo .empresa{
-        width: 560px;
-        top: 55%;
-    }
 
-    #historia-empresa, #pensamento-empresa{
-        width: 100%;
-        height: 490px;
-        display: flex;
-        background-color: #ffffff;
-        padding: 8px 4%;
-        padding-top: 60px;
-    }
 
 
     #pensamento-empresa{
