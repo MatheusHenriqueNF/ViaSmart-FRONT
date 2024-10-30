@@ -14,7 +14,7 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding-top: 50px;
+        padding-top: 40px;
     }
 
     #titulo-caracteristica p{
@@ -58,6 +58,46 @@
     .caracteristica p{
         font-weight: 300;
         margin-top: 10px;
+    }
+
+    #beneficios{
+        height: 400px;
+    }
+
+    .beneficios{
+        width: 53%;
+        flex-direction: column;
+        padding: 0px;
+        align-items: start;
+        justify-content: flex-start;
+    }
+
+    .beneficios p{
+        margin-top: -20px
+    }
+
+    .beneficio{
+        width: 100%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+    }
+
+    .beneficio img{
+        width: 28px;
+        height: 28px;
+    }
+
+    .beneficio h3{
+        margin-left: 15px;
+        color: #243E63;
+    }
+    .conteudo-imagem{
+        width: 47%;
+    }
+
+    .img-section img{
+        width: 500px;
     }
 
 }
