@@ -1,9 +1,8 @@
 @media (min-width: 1200px) {
     #vantagens{
-        width: 100%;
         height: 500px;
         display: block;
-        padding: 8px 4%;    
+  
     }
  
     #content-dados, #content-vantagens{
@@ -73,25 +72,25 @@
         margin-bottom: 30px;
     }
     
-    #conheca-empresa, #conheca-produto{
-        width: 100%;
-        height: 440px;
-        display: flex;
+    #conheca-empresa{
         background-color: #F0F2F5;
-        padding: 8px 4%;
+        padding-top: 0;
     }
 
+    #conheca-empresa, #conheca-produto{
+        height: 440px;
+    }
 
     #conheca-produto{
         height: 540px;
         background-color: #ffffff;
     }
 
-    #integrantes{
-        width: 100%;
+    #integrantes{     
         height: 230px;
         padding: 8px 4%;
         gap: 20px;
+        flex-direction: column;
         
     }
     

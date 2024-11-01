@@ -1,4 +1,26 @@
 @media (min-width: 1200px) {
+    a{
+        font-size: 16px;
+        color: #2B63A9;
+        text-decoration: none;
+        text-decoration:underline;
+    }
+
+    h2{
+        font-size: 52.6px;
+        font-weight: 300;
+        color: #243E63;
+        margin-bottom: 30px;
+        margin-top: -45px;
+    }
+
+    p{
+        color: #1E1E1E;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+    
     #wrapper{
         width: 100%;
         height: 100%;
@@ -31,12 +53,6 @@
         line-height: 135%;
     }
 
-    a{
-        font-size: 16px;
-        color: #2B63A9;
-        text-decoration: none;
-        text-decoration:underline;
-    }
 
     .apresentacao-conteudo span{
         font-size: 48px;
@@ -58,7 +74,7 @@
         top: 55%;
     }
 
-    #historia-empresa, #pensamento-empresa, #conheca-produto, #carateristicas-produto, #beneficios, #integrantes{
+    #vantagens,#historia-empresa, #conheca-empresa, #pensamento-empresa, #qualidade-empresa,#conheca-produto, #carateristicas-produto, #beneficios, #integrantes{
         width: 100%;
         height: 490px;
         display: flex;
@@ -73,20 +89,6 @@
 
     }
 
-    h2{
-        font-size: 52.6px;
-        font-weight: 300;
-        color: #243E63;
-        margin-bottom: 30px;
-        margin-top: -45px;
-    }
-
-    p{
-        color: #1E1E1E;
-        font-size: 16px;
-        line-height: 1.5;
-        text-align: justify;
-    }
 
     .conteudo-texto p{
         font-weight: 200;
