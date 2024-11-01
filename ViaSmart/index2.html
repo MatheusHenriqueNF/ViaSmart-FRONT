@@ -4,11 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css versão desktop (min-width = 1200px) -->
     <link rel="stylesheet" href="css/desktop/reset.css">
     <link rel="stylesheet" href="css/desktop/estilo.css">
     <link rel="stylesheet" href="css/desktop/header.css">
     <link rel="stylesheet" href="css/desktop/paginaIndex.css">
     <link rel="stylesheet" href="css/desktop/footer.css">
+    <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 992px) and (max-width = 1199px) -->
+    <link rel="stylesheet" href="css/laptop/header.css">
+    
     <title>ViaSmart</title>
 </head>
  
@@ -28,7 +34,8 @@
                                     <picture>
     
                                         <source srcset="img/logo_ccr.png" media="(min-width: 1200px)">
-                                        <img src="" alt="Logo da ViaSmart">
+                                        <source srcset="img/logo_ccr.png" media="(min-width: 992px) and (max-width: 1199px)">
+                                        <img src="" alt="Logo da ccr" title="logo ccr">
     
                                     </picture>
     
