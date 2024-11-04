@@ -7,7 +7,7 @@
     }
 
     h2{
-        font-size: 52.6px;
+        font-size: 40px;
         font-weight: 300;
         color: #243E63;
         margin-bottom: 30px;
@@ -46,7 +46,7 @@
     }
 
     .apresentacao-conteudo .texto-apresentacao{
-        width: 416px;
+        width: 456px;
         position: absolute;
         top: 350px;
         left: 260px;
@@ -75,8 +75,8 @@
     }
 
     .apresentacao-conteudo .empresa{
-        width: 560px;
-        top: 55%;
+        top: 380px;
+        left: 260px;
     }
 
     #vantagens,#historia-empresa, #conheca-empresa, #pensamento-empresa, #qualidade-empresa,#conheca-produto, #carateristicas-produto, #beneficios, #integrantes{

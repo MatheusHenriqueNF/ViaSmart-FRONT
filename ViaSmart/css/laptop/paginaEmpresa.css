@@ -1,4 +1,9 @@
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    #historia-empresa{
+        margin-top: 60px;
+        padding-top: 150px;
+    }
 
     #pensamento-empresa{
         padding-top: 30px;
@@ -6,15 +11,15 @@
 
 
     #historia-empresa h2, #pensamento-empresa h2{
-        font-size: 48px;
         font-weight: 300;
         margin-bottom: 30px;
     }
 
     .img-section img{
-        width: 550px;
-        height: 337px;
-        margin-top: -50px;
+        width: 450px;
+        height: 297px;
+        margin-top: -80px;
+        margin-left: 20px;
     }
 
     .esquerda{
@@ -66,15 +71,16 @@
     }
 
     .qualidade-item{
-        width: 50%;
+        width: 45%;
         height: 100px;
         display: flex;
         align-items: center;
+        margin-left: 0px;
     }
 
     .qualidade-item .qualidade-icon{
-        width: 45px;
-        height: 45px;
+        width: 35px;
+        height: 30px;
     }
 
     .qualidade-icon img{
@@ -95,7 +101,11 @@
 
     .qualidade-esquerda{
         padding-left: 20px;
+        margin-left: 70px;
     }
 
+    footer{
+        margin-top: 50px;
+    }
 
 }
