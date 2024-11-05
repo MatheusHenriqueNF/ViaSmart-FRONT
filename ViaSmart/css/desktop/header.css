@@ -12,6 +12,10 @@
         text-decoration: none;
     }
 
+    #btn-menu, #mobile_menu{
+        display: none;
+    }
+
     #navbar{
         width: 100%;
         display: flex;
