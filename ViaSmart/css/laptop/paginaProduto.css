@@ -1,8 +1,10 @@
-@media (min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
 
     #carateristicas-produto{
         background-color: #F0F2F5;
-        height: 500px;
+        height: 850px;
         justify-content: center;
         padding-top: 10px;
         flex-direction: column;
@@ -26,7 +28,9 @@
 
     #caracteristicas{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:30px
     }
 
     .caracteristica{
@@ -40,6 +44,7 @@
         padding: 20px;
         border-radius: 10px;
         box-shadow: 1px 1px 1px 1px rgba(65, 65, 65, 0.2);
+
     }
 
     .caracteristica img{
@@ -48,7 +53,7 @@
     }
 
     .caracteristica h3{
-        font-size: 24px;
+        font-size: 22px;
         margin-top: 10px;
         font-weight: 500;
         color: #243E63;
@@ -60,7 +65,8 @@
     }
 
     #beneficios{
-        height: 400px;
+        height: 500px;
+        padding-top: 100px;
     }
 
     .beneficios{
@@ -96,7 +102,11 @@
     }
 
     .img-section img{
-        width: 500px;
+        width: 400px;
+        margin-top: -150px;
     }
 
+    footer{
+        margin-top: 0px;
+    }
 }
