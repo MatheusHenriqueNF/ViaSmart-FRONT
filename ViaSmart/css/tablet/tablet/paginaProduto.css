@@ -1,8 +1,9 @@
 @media (min-width: 768px) and (max-width: 991px) {
-    #conhaca-produto{
+    #conheca-produto{
         height: 760px;
         margin-top: 60px;
     }
+    
     #carateristicas-produto{
         background-color: #F0F2F5;
         height: 1150px;
