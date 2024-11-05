@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- JQUERY PARA FAZER O BOTÃO DE MENU MOBILE -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
      <!-- css versão desktop (min-width = 1200px) -->
     <link rel="stylesheet" href="css/desktop/reset.css">
     <link rel="stylesheet" href="css/desktop/estilo.css">
@@ -17,6 +22,14 @@
      <link rel="stylesheet" href="css/laptop/estilo.css">
      <link rel="stylesheet" href="css/laptop/footer.css">
      <link rel="stylesheet" href="css/laptop/paginaIntegrante.css">
+
+     <!-- --------------------------------------------- -->
+
+    <!-- css versão desktop (min-width = 768px) and (max-width = 991px) -->
+    <link rel="stylesheet" href="css/tablet/tablet/header.css">
+    <link rel="stylesheet" href="css/tablet/tablet/estilo.css">
+    <link rel="stylesheet" href="css/tablet/tablet/footer.css">
+    <link rel="stylesheet" href="css/tablet/tablet/paginaIntegrante.css">
 
 
     <title>Sobre os desenvolvedores</title>
@@ -37,6 +50,7 @@
     
                                         <source srcset="img/logo_ccr.png" media="(min-width: 1200px)">
                                         <source srcset="img/logo_ccr.png" media="(min-width: 992px) and (max-width: 1199px)">
+                                        <source srcset="img/logo_ccr.png" media="(min-width: 768px) and (max-width: 991px)">
                                         <img src="" alt="Logo da ViaSmart">
     
                                     </picture>
@@ -63,7 +77,26 @@
                                 <li>Sobre o Grupo</li>
                             </a>
                         </ul>
+                        <button id="btn-menu"><i class="fa-solid fa-bars"></i></button>
                     </nav>
+                    
+                    <!-- conteudo do menu quando a pagina estiver com 991px ou menos -->
+                    <div id="mobile_menu">
+                        <ul id="mobile_nav_lista">
+                            <a href="index.html" class="nav-item">
+                                <li>Home</li>
+                            </a>
+                            <a href="empresa.html" class="nav-item">
+                                <li>Empresa</li>
+                            </a>
+                            <a href="produto.html" class="nav-item">
+                                <li>Aplicação</li>
+                            </a>
+                            <a href="integrantes.html" class="nav-item">
+                                <li>Sobre o Grupo</li>
+                            </a>
+                        </ul>
+                    </div>
  
                 </header>
  
@@ -73,6 +106,7 @@
  
                         <source srcset="img/carousel4.png" media="(min-width: 1200px)">
                         <source srcset="img/carousel4_1199.png" media="(min-width: 992px) and (max-width: 1199px)">
+                        <source srcset="img/carousel4_991.png" media="(min-width: 768px) and (max-width: 991px)">
                         <img src="" alt="Imagem da apresentação">
  
                     </picture>
@@ -182,5 +216,7 @@
             </footer>
         </main>
     </div>
+
+    <script src="js/scriptmenu.js"></script>
 </body>
 </html>
