@@ -103,10 +103,16 @@
         margin-top: 10px;
     }
 
+    footer{
+        margin-top: 20px;
+    }
+
     #frm-contato{
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        text-align: center;
+        margin-bottom: 50px;
     }
 
     #formulario-contato {
@@ -116,6 +122,7 @@
         box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         padding: 20px;
         margin: auto;
+        margin-bottom: 50px;
     }
     
     .grupo-formulario {
