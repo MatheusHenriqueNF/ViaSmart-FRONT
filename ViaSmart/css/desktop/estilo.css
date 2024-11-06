@@ -76,7 +76,7 @@
         top: 55%;
     }
 
-    #vantagens,#historia-empresa, #conheca-empresa, #pensamento-empresa, #qualidade-empresa,#conheca-produto, #carateristicas-produto, #beneficios, #integrantes{
+    #vantagens,#historia-empresa, #conheca-empresa, #pensamento-empresa, #qualidade-empresa,#conheca-produto, #carateristicas-produto, #beneficios, #integrantes, #frm-contato{
         width: 100%;
         height: 490px;
         display: flex;
