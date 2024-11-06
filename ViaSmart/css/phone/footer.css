@@ -1,4 +1,4 @@
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 600px) and (max-width: 767px) {
     footer{
         width: 100%;
         height: 120px;
@@ -8,7 +8,7 @@
         text-align: center;
         font-size: 14px;
         line-height: 1.5;
-        margin-top: 210px;
+        margin-top: 30px;
         justify-content: center;
         align-items: center;
     }

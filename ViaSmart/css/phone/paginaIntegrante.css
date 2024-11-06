@@ -1,4 +1,4 @@
-@media(min-width: 992px) and (max-width: 1199px) {
+@media(min-width: 768px) and (max-width: 991px) {
     #integrantes{
         height: 1200px;
         flex-direction: column;
@@ -8,6 +8,11 @@
         height: 100px;
         justify-content: flex-start;
         padding-top: 65px;
+        order: 1;
+    }
+
+    .integrantes-conteudo{
+        order: 2;
     }
 
     #integrante-item{

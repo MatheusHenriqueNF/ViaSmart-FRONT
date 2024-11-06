@@ -1,8 +1,7 @@
-@media (min-width:992px) and (max-width:1199px) {
+@media (min-width: 600px) and (max-width: 767px) {
     #vantagens{
-        height: 500px;
+        height: 1050px;
         display: block;
-  
     }
  
     #content-dados, #content-vantagens{
@@ -10,17 +9,28 @@
         height: 200px;
         display: flex;
         justify-content: center;
+        align-items: center;
         padding-top: 50px;
         gap: 30px;      
+        flex-direction: column;
     }
+
+    #content-dados{
+        margin-bottom: 100px;
+    }
+
  
     .informacao, .vantagem{
-        width: 33%;
+        width: 60%;
         height: 100px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .informacao{
+        width: 352px;
     }
 
     .informacao p{
@@ -41,17 +51,18 @@
  
     #vantagens{
         margin-bottom: 50px;
+        
     }
 
     #content-vantagens{
-        height: 250px;
+        height: auto;
         padding-top: 0px;
         gap: 30px;
     }
  
     .vantagem{
-        width: 350px;
-        height: 250px;
+        width: 28 0px;
+        height: 200px;
         text-align: justify;
         border-radius: 17px;
         padding: 20px;
@@ -60,16 +71,16 @@
     }
  
     .vantagem h3{
-        font-size: 22px;
-        margin-bottom: 30px;
+        font-size: 18px;
+        margin-bottom: 10px;
     }
  
     .vantagem p{
-        font-size: 15px;
+        font-size: 13px;
         line-height: 130%;        
         font-weight: 300;
         line-height: 1.3rem;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
 
     .conteudo-texto h2{
@@ -77,41 +88,36 @@
     }
     
     #conheca-empresa{
+        height: 745px;
         background-color: #F0F2F5;
         padding-top: 0;
     }
 
-    #conheca-empresa, #conheca-produto{
-        height: 440px;
-    }
 
     #conheca-produto{
-        height: 540px;
+        height: 800px;
         background-color: #ffffff;
     }
 
     #integrantes{     
-        height: 230px;
-        padding: 8px 4%;
+        height: 700px;
         gap: 20px;
-        flex-direction: column;
     }
     
     #integrantes h3{
         font-size: 22px;
-        color: #ffffff;
-        margin-bottom: 30px;
         font-weight: 300;
         color: #243E63;
+        display: block;
     }
    
     #content-membro{
         width: 100%;
         height: 144px;
+        margin-top: 190px;
         display: flex;
-        gap: 20px;
-        display: flex;
-        flex-wrap: wrap;
         justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
 }
