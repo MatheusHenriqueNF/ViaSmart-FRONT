@@ -1,4 +1,4 @@
-@media (min-width: 600px) and (max-width: 767px) {
+@media (min-width: 340px) and (max-width: 599px) {
     #vantagens{
         height: 1050px;
         display: block;
@@ -21,7 +21,7 @@
 
  
     .informacao, .vantagem{
-        width: 60%;
+        width: 90%;
         height: 100px;
         display: flex;
         flex-direction: column;
@@ -30,12 +30,12 @@
     }
 
     .informacao{
-        width: 352px;
+        width: 300px;
         margin-bottom: 15px;
     }
 
     .informacao p{
-        font-size: 20px;
+        font-size: 14px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -45,7 +45,7 @@
     }
  
     .informacao span{
-        font-size: 65px;
+        font-size: 36px;
         color: #2B63A9;
         display: flex;
     }
@@ -85,18 +85,18 @@
     }
 
     .conteudo-texto h2{
-        font-size: 44px;
+        font-size: 24px;
     }
     
     #conheca-empresa{
-        height: 745px;
+        height: 505px;
         background-color: #F0F2F5;
         padding-top: 0;
     }
 
 
     #conheca-produto{
-        height: 800px;
+        height: 750px;
         background-color: #ffffff;
     }
 

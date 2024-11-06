@@ -1,7 +1,7 @@
-@Media (min-width: 600px) and (max-width: 767px){
+@Media (min-width: 340px) and (max-width: 599px){
     header{
         width: 100%;
-        height: 100px;
+        height: 50px;
         background-color: rgba(77, 92, 187, 0.5);
         padding: 8px 4%;
         position: absolute;
@@ -24,14 +24,14 @@
     }
     #nav_logo{
         width: auto;
-        height: 80px;
+        height: 36px;
         display: flex;
         align-items: center;
     }
 
     #logo{
-        width: 80px;
-        height: 80px;
+        width: 46px;
+        height: 46px;
 
     }
 
@@ -41,15 +41,15 @@
     }
 
     #dividir{
-        width: 4px;
-        height: 65px;
+        width: 2px;
+        height: 35px;
         background-color: #ffffff;
 
     }
 
     span{
         color: #ffffff;
-        font-size: 22px;
+        font-size: 11px;
         font-weight: 300;
         margin-left: 10px;
     }
